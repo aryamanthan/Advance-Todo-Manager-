@@ -88,6 +88,9 @@ const App = () => {
   return (
     <div className='min-h-screen bg-black text-white'>
       <Top/>
+      <h1 className='text-xl'>Todo's Management Application !</h1>
+      <p className='text-xs mb-3'>Welcome to our Prestigious Todo Management Platform</p> 
+      <hr/>
       <form onSubmit={submitHandler}>
         <input 
           value={User}
