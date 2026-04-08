@@ -7,7 +7,7 @@ const Top = () => {
       <a href='https://www.youtube.com/'>Advance Todo Manager</a>
       <a className='text-align-left'>Home</a>
       <a>Contact Us</a>
-      <a>Settings</a>
+      <a className=''>Settings</a>
       </div>
     </div>
   )
