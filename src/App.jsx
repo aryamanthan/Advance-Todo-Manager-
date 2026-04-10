@@ -103,9 +103,7 @@ const App = () => {
         <button className='m-2  border p-1 pr-2 text-xs'>Submit</button>
       </form>
       <hr/>
-      {data.map(function(data,index){
-        return <p className='text-[8px] ml-3' key={index}>{data.id}. {data.name}</p>
-      })}
+      <h1 clas>Your Work To Do</h1>
     </div>
   )
 }
